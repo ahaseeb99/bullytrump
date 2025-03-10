@@ -1,0 +1,4 @@
+deployment
+  tasks
+    - export DEPLOY_DIR=home2bullytrumppublic_html
+    - bincp -R  $DEPLOY_DIR
